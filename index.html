@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -14,7 +17,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
         <nav class="nav">
           <ul class="ligo">
@@ -61,7 +64,7 @@
                 View More <img src="./img/strel.png" alt="" />
               </p>
             </div>
-            <div id="mov">
+            <div class="mov">
               <h2 class="ops-heading">Furniture</h2>
               <p class="ops-subtitle">
                 Movable articles that are used to make a room or building
@@ -71,7 +74,7 @@
                 View More <img src="./img/strel.png" alt="" />
               </p>
             </div>
-            <div id="mov">
+            <div class="mov">
               <h2 class="ops-heading">Flooring</h2>
               <p class="ops-subtitle">
                 Thin object any finished material applied over a floor structure
@@ -85,6 +88,7 @@
       </section>
       <section class="tackle">
         <div class="container">
+          <div>
           <h2 class="tackle-heading">We Tackle The Most Challenging Designs</h2>
           <p class="tackle-subtitle">
             The world needs innovators and problem solvers who turn challenges
@@ -95,15 +99,16 @@
           <p class="nomer">012345678</p>
           <p class="nomer-name">Call Us Anytime</p>
           <button class="nomer-bot">Get Free Estimate</button>
+         </div>
+          <img src="./img/room.jpg" alt="" class="room" />
         </div>
-        <img src="./img/room.jpg" alt="" class="room" />
       </section>
       <section class="comand">
         <div class="container">
           <h2 class="comand-heading">What the People Thinks About Interno</h2>
-          <ul>
+          <ul class="comand-ul">
             <li class="comend">
-              <img src="#" alt="" />
+              <img src="./img/lisa.jpg" alt="" />
               <h3 class="comend-opc">Lisa Clairton</h3>
               <p class="comend-opcc">New York, USA</p>
               <p class="comend-p">
@@ -112,7 +117,7 @@
               </p>
             </li>
             <li class="comend">
-              <img src="#" alt="" />
+              <img src="./img/david.jpg" alt="" class="people" />
               <h3 class="comend-opc">David Knight</h3>
               <p class="comend-opcc">Sydney, Australia</p>
               <p class="comend-p">
@@ -121,7 +126,7 @@
               </p>
             </li>
             <li class="comend">
-              <img src="#" alt="" />
+              <img src="./img/lissa.jpg" alt="" />
               <h3 class="comend-opc">Lisa Clairton</h3>
               <p class="comend-opcc">Paris, France</p>
               <p class="comend-p">
@@ -134,7 +139,7 @@
       </section>
       <section>
         <div class="container">
-          <ul>
+          <ul class="foto">
             <li><img src="./img/home.jpg" alt="" class="bren" /></li>
             <li><img src="./img/vs.jpg" alt="" class="bren" /></li>
             <li><img src="./img/brend.jpg" alt="" class="bren" /></li>
@@ -151,19 +156,27 @@
             support team excited to help you, getting started with us never been
             easier.
           </p>
-          <ul>
-            <li><img src="./img/roomw.jpg" alt="" class="roomw" /></li>
-            <li><h3 class="roomw-h">Winery Dry Creek Building</h3></li>
-            <li><p class="roomw-p">Art Modern</p></li>
-            <li><img src="./img/roomt.jpg" alt="" class="roomt" /></li>
-            <li><h3 class="roomw-hh">Creative Workplace Design</h3></li>
-            <li><p class="roomw-pp">Minimalist</p></li>
-            <li><img src="./img/roomth.jpg" alt="" class="roomw "  /></li>
-            <li><h3 class="roomw-h">Bedroom Interior Pot Work</h3></li>
-            <li><p class="roomw-p">Modern</p></li>
-            <li><img src="./img/roomf.jpg" alt="" class="roomt" /></li>
-            <li><h3 class="roomw-hh">Light Ambience Sepia Design</h3></li>
-            <li><p class="roomw-pp">Scandinavian</p></li>
+          <ul class="recent-projects"> 
+            <li>
+              <img src="./img/roomw.jpg" alt="" class="roomw" />
+            <h3 class="roomw-h">Winery Dry Creek Building</h3>
+            <p class="roomw-p">Art Modern</p>
+          </li>
+            <li>
+              <img src="./img/roomt.jpg" alt="" class="roomt" />
+            <h3 class="roomw-hh">Creative Workplace Design</h3>
+            <p class="roomw-pp">Minimalist</p>
+          </li>
+            <li>
+              <img src="./img/roomth.jpg" alt="" class="roomw "  />
+            <h3 class="roomw-h">Bedroom Interior Pot Work</h3>
+            <p class="roomw-p">Modern</p>
+          </li>
+            <li>
+              <img src="./img/roomf.jpg" alt="" class="roomt" />
+            <h3 class="roomw-hh">Light Ambience Sepia Design</h3>
+            <p class="roomw-pp">Scandinavian</p>
+          </li>
           </ul>
         </div>
       </section>
@@ -172,9 +185,9 @@
 <ul class="infa">
     <li><h3 class="infa-g">12</h3></li>
     <li><p class="infa-o">Years Of Experiance</p></li>
-    <li><h3 class="infa-g" id="g">5K</h3></li>
+    <li><h3 class="infa-g" class="g">5K</h3></li>
     <li><p class="infa-o">Success Project</p></li>
-    <li><h3 class="infa-g" id="g">1K</h3></li>
+    <li><h3 class="infa-g" class="g">1K</h3></li>
     <li><p class="infa-o">Active Project</p></li>
     <li><h3 class="infa-g">4K</h3></li>
     <li><p class="infa-o">Happy Customers</p></li>
@@ -213,50 +226,60 @@
                     </ul>
                 </div>
             </section> 
-       <section>
-                <div class="container">
-<h2>Wanna join the interno?</h2>
-<p>Contact Us & Get a Free Consultation</p>
-<button><p></p><img src="" alt=""></button>
+            <section class="wannajoin">
+            <div class="container">
+<h2 class="wannajoin-h">Wanna join the interno?</h2>
+<p class="wannajoin-p">Contact Us & Get a Free Consultation</p>
+<button class="wannajoin-baton">Connect With us --></button>
                 </div>
             </section> 
     </main>
    <footer>
-           <address>
-            <div class="container">
-              <ul>
-           <li><a href=""> <img src="./img/image.jpg" alt=""></a></li>
-           <li><p>We are the leading architect and interior design firm in the world.</p></li>
-            <li><img src="" alt=""></li>
-            <li> <img src="" alt=""></li>
-              <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
-            <ul>
-              <li><h4>Pages</h4></li>
-                <li><p>Style Guide</p></li>
-                  <li><p>Protected</p></li>
-                    <li><p>Licenses</p></li>
-                      <li><p>Changelog</p></li>
-                        <li><p>404</p></li>
-            </ul>
-            <ul>
-              <li> <h4>Explore</h4 ></li>
-                <li><p>About Us</p></li>
-                  <li><p>Recent Blog</p></li>
-                    <li><p>Pricing Plan</p></li>
-                      <li><p>Our Projects</p></li>
-                        <li><p>Contact Us</p></li>
-            </ul>
-            <ul>
-              <li> <h4>Contact</h4></li>
-                <li> <p>53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p></li>
-                  <li> <p>contact@interno.com</p></li>
-                    <li><p>(123) 456 - 7890</p></li>
+    <address class="address">
+      <div class="container">
+        <div class="footer-grid">
+          <ul>
+            <li>
+              <a href=""><img src="./img/interno.jpg" alt="Company Logo" /></a>
+            </li>
+            <li>
+              <p class="fo-p">We are the leading architect and interior design firm in the world.</p>
+            </li>
+            <li><img src="./img/f.jpg" alt=""></li>
+            <li><img src="./img/bert.jpg" alt=""></li>
+            <li><img src="./img/in.jpg" alt=""></li>
+            <li><img src="./img/fotog.jpg" alt=""></li>
           </ul>
-           </address>
-           <p>Copyright © Interno | Designed by <span><a href=""></a>Victorflow</span>Templates - Powered by <span>Webflow</span></p>
+          <ul>
+            <li><h4>Pages</h4></li>
+            <li><p class="foo-p">Style Guide</p></li>
+            <li><p class="foo-p">Protected</p></li>
+            <li><p class="foo-p">Licenses</p></li>
+            <li><p class="foo-p">Changelog</p></li>
+            <li><p class="foo-p">404</p></li>
+          </ul>
+          <ul>
+            <li><h4>Explore</h4></li>
+            <li><p class="foo-p">About Us</p></li>
+            <li><p class="foo-p">Recent Blog</p></li>
+            <li><p class="foo-p">Pricing Plan</p></li>
+            <li><p class="foo-p">Our Projects</p></li>
+            <li><p class="foo-p">Contact Us</p></li>
+          </ul>
+          <ul>
+            <li><h4>Contact</h4></li>
+            <li><p class="foo-pp">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</p></li>
+            <li><p class="foo-p">contact@interno.com</p></li>
+            <li><p class="foo-p">(123) 456 - 7890</p></li>
+          </ul>
         </div>
+      </div>
+
+           </address>
+           <div class="foter-botonn">
+           <p class="foter-boton">Copyright © Interno | Designed by <span class="foter-boton"><a href=""></a>Victorflow</span>Templates - Powered by <span class="foter-boton">Webflow</span></p>
+        </div>
+          </div>        
         </footer> 
   </body>
 </html>
