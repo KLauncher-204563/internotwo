@@ -408,15 +408,15 @@ letter-spacing: 0.22px;
 margin-right: 207px;
 margin-left: 207px;
 }
-.roomw{
+/* .roomw{
 
   border-radius: 0px 80px 0px 0px;
 background: url(./img/roomw.jpg) lightgray 50% / cover no-repeat;
 margin-top: 71px;
 margin-left: 120px; 
 margin-bottom: 24px;
-}
-.roomw-h{
+} */
+/* .roomw-h{
   color: #292F36;
 font-family: "DM Serif Display";
 font-size: 24px;
@@ -425,8 +425,8 @@ font-weight: 400;
 line-height: 37.5px; 
 letter-spacing: 0.22px;
   margin-left: 120px; 
-}
-.roomw-p{
+} */
+/* .roomw-p{
   color: #4D5053;
 font-family: "Jost";
 font-size: 22px;
@@ -436,8 +436,8 @@ line-height: 33px;
 letter-spacing: 0.22px;
   margin-left: 120px;
   margin-bottom: 61px;
-}
-.roomt{
+} */
+/* .roomt{
   color: #4D5053;
   text-align: center;
   font-family: "Jost";
@@ -448,8 +448,8 @@ letter-spacing: 0.22px;
   letter-spacing: 0.22px;
   margin-right: 207px;
   margin-left: 20px;
-}
-.roomw-hh{
+} */
+/* .roomw-hh{
   color: #292F36;
 font-family: "DM Serif Display";
 font-size: 24px;
@@ -458,8 +458,8 @@ font-weight: 400;
 line-height: 37.5px; 
 letter-spacing: 0.22px;
   margin-left: 20px; 
-}
-.roomw-pp{
+} */
+/* .roomw-pp{
   color: #4D5053;
 font-family: "Jost";
 font-size: 22px;
@@ -469,10 +469,11 @@ line-height: 33px;
 letter-spacing: 0.22px;
   margin-left: 20px;
   margin-bottom: 61px;
-}
+} */
 .infa{
   background: #F4F0EC;
   display: flex;
+  flex-wrap: wrap;
   flex-wrap: wrap; /* Позволяет элементам переходить на новую строку, если не помещаются в одну */
   padding: 0;
   margin: 0;
@@ -518,15 +519,15 @@ line-height: 62.4px;
 letter-spacing: 0.22px;
 }
 .recent-p{
-  width: 589px;
+  width: 786px;
   color: #4D5053;
 text-align: center;
 font-family: "Jost";
 font-size: 22px;
 font-style: normal;
-font-weight: 400;
 line-height: 33px;  
-letter-spacing: 0.22px;
+margin-bottom: 104px;
+margin-top: 20px;
 }
 .recent-nazwa{
   width: 334px;
@@ -539,6 +540,7 @@ line-height: 35px;
 letter-spacing: 0.5px;
 margin-bottom: 34px;
 margin-top: 15px;
+margin-right: auto;
 }
 .recent-pp{
   width: 144px;
@@ -549,10 +551,16 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.22px;
+margin-left: 21px;
 }
 .re-li{
 border-radius: 62px;
 border: 1px solid #E7E7E7;
+margin-left: 19px;
+margin-right: 19px;
+width: 360px;
+height: 475px;
+text-align: center;
 }
 
 .hero-p {
@@ -701,13 +709,62 @@ margin-left: 474px;
 margin-top: 31px;
 margin-bottom: 95px;
 }
+.recent-projects{
+  display: flex;
+  flex-wrap: wrap;
+}
+.roomw-h{
+  color: #292F36;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  line-height: 37.5px; 
+ margin-top: 24px;
+}
+.roomw-hh{
+  color: #292F36;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  line-height: 37.5px; 
+ margin-top: 24px;
+}
+.roomw-pp{
+  color: #4D5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  line-height: 33px; 
+margin-bottom: 61px;
+gap: 20px;  
+row-gap: 60px;
+}
+.roomw-p{
+  color: #4D5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  line-height: 33px; 
+margin-bottom: 61px;
+gap: 20px;
+row-gap: 60px;
+}
+.recent-p{
 
-
-
-
-
-
-
-
+}
+.recent-but{
+  box-sizing: border-box;
+  width: 70px;
+height: 70px;
+  border-radius: 100px;
+background: #F4F0EC;
+}
+.recent-ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.re-img{
+  margin: auto;
+}
 
 
