@@ -1,5 +1,5 @@
 .container {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   width: 1230px;
   margin-left: auto;
   margin-right: auto;
@@ -16,23 +16,19 @@
   gap: 30px; /* Расстояние между элементами */
   align-items: baseline;
 }
-
 .mov {
   width: 30%;
   text-align: center;
   padding: 20px;
 }
-
 .ops-heading {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
 .ops-subtitle {
   font-size: 16px;
   margin-bottom: 15px;
 }
-
 .ops-subtitlee {
   display: flex;
   align-items: center;
@@ -408,68 +404,6 @@ letter-spacing: 0.22px;
 margin-right: 207px;
 margin-left: 207px;
 }
-/* .roomw{
-
-  border-radius: 0px 80px 0px 0px;
-background: url(./img/roomw.jpg) lightgray 50% / cover no-repeat;
-margin-top: 71px;
-margin-left: 120px; 
-margin-bottom: 24px;
-} */
-/* .roomw-h{
-  color: #292F36;
-font-family: "DM Serif Display";
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 37.5px; 
-letter-spacing: 0.22px;
-  margin-left: 120px; 
-} */
-/* .roomw-p{
-  color: #4D5053;
-font-family: "Jost";
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 33px; 
-letter-spacing: 0.22px;
-  margin-left: 120px;
-  margin-bottom: 61px;
-} */
-/* .roomt{
-  color: #4D5053;
-  text-align: center;
-  font-family: "Jost";
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 33px;
-  letter-spacing: 0.22px;
-  margin-right: 207px;
-  margin-left: 20px;
-} */
-/* .roomw-hh{
-  color: #292F36;
-font-family: "DM Serif Display";
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 37.5px; 
-letter-spacing: 0.22px;
-  margin-left: 20px; 
-} */
-/* .roomw-pp{
-  color: #4D5053;
-font-family: "Jost";
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: 33px; 
-letter-spacing: 0.22px;
-  margin-left: 20px;
-  margin-bottom: 61px;
-} */
 .infa{
   background: #F4F0EC;
   display: flex;
@@ -588,33 +522,26 @@ h3{
 h2{
   font-family: "DM Serif Display";
 }
+
 .bren{
   display: flex;
   padding: 0; 
   margin: 0;  
   list-style: none; 
 }
-
-{
-  
-}
-
 .footer-grid {
   display: flex;
   justify-content: space-between; /* Равномерное расстояние между элементами */
   flex-wrap: wrap; /* Включаем перенос строк для адаптивности */
   gap: 2rem; /* Расстояние между колонками */
 }
-
 footer ul {
   list-style: none;
   padding: 0;
 }
- 
 footer ul li {
   margin-bottom: 1rem;
 }
-
 footer ul h4 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -627,14 +554,12 @@ font-weight: 400;
 line-height: 37.5px; /* 150% */
 letter-spacing: 0.22px;
 }
-
 footer ul p,
 footer ul a {
   font-size: 1rem;
   color: #ccc;
   text-decoration: none;
 }
-
 footer ul img {
   max-width: 100%;
   height: auto;
@@ -676,6 +601,7 @@ width: 1200px;
 margin-left: auto;
 margin-right: auto;
 }
+
 .wannajoin-h{
   color: #FFF;
   text-align: center;
@@ -688,6 +614,7 @@ margin-right: auto;
   padding-top: 100px;
   margin-bottom: 9px;
 }
+
 .wannajoin-p{
   color: #FFF;
 text-align: center;
@@ -698,6 +625,7 @@ font-weight: 400;
 line-height: 33px; 
 letter-spacing: 0.22px;
 }
+
 .wannajoin-baton{
 background-color: #CDA274;
 color: #FFF;
@@ -709,10 +637,12 @@ margin-left: 474px;
 margin-top: 31px;
 margin-bottom: 95px;
 }
+
 .recent-projects{
   display: flex;
   flex-wrap: wrap;
 }
+
 .roomw-h{
   color: #292F36;
   font-family: "DM Serif Display";
@@ -721,6 +651,7 @@ margin-bottom: 95px;
   line-height: 37.5px; 
  margin-top: 24px;
 }
+
 .roomw-hh{
   color: #292F36;
   font-family: "DM Serif Display";
@@ -729,6 +660,7 @@ margin-bottom: 95px;
   line-height: 37.5px; 
  margin-top: 24px;
 }
+
 .roomw-pp{
   color: #4D5053;
   font-family: "Jost";
@@ -766,5 +698,3 @@ background: #F4F0EC;
 .re-img{
   margin: auto;
 }
-
-
