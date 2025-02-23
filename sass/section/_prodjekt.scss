@@ -1,0 +1,80 @@
+.recent{
+    color: #292F36;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 62.4px; 
+  letter-spacing: 0.22px;
+  }
+.recent-p{
+    color: #4D5053;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-right: 207px;
+  margin-left: 207px;
+  width: 786px;
+  color: #4D5053;
+text-align: center;
+font-size: 22px;
+margin-bottom: 104px;
+margin-top: 20px;
+  }
+  .recent-projects{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .roomw-h{
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    line-height: 37.5px; 
+   margin-top: 24px;
+  }
+  
+  .roomw-hh{
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    line-height: 37.5px; 
+   margin-top: 24px;
+  }
+  
+  .roomw-pp{
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+  margin-bottom: 61px;
+  gap: 20px;  
+  row-gap: 60px;
+  }
+  .roomw-p{
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    line-height: 33px; 
+  margin-bottom: 61px;
+  gap: 20px;
+  row-gap: 60px;
+  }
+  .recent-but{
+    box-sizing: border-box;
+    width: 70px;
+  height: 70px;
+    border-radius: 100px;
+  background: #F4F0EC;
+  }
